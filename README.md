@@ -27,6 +27,13 @@ make build
 ```
 
 - Make a publishable archive
+
 ```shell
 make publish
+```
+
+- Prepare a release
+
+```shell
+make release
 ```
