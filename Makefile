@@ -7,3 +7,6 @@ build: platform/go.mod platform/main.go platform/main.roc platform/host.h
 
 publish: platform
 	roc build --bundle .tar.br platform/main.roc
+
+release:
+	git tag $$(cat VERSION)
