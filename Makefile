@@ -6,4 +6,4 @@ build: platform/go.mod platform/main.go platform/main.roc platform/host.h
 	roc preprocess-host platform/dynhost platform/main.roc platform/libapp.so
 
 publish: platform
-	roc build --bundle .tar.gz platform/main.roc
+	roc build --bundle .tar.br platform/main.roc
