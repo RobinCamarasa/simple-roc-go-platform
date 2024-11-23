@@ -5,3 +5,4 @@ platform/metadata_linux-x64.rm
 platform/*.tar.br
 main
 init
+.direnv/
